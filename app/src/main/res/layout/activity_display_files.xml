@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_display_files"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/tvFolderEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Folder is empty"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:visibility="invisible" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hsvFolderScroll"
+        android:scrollbarSize="1dip"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="16sp"
+            android:layout_marginBottom="4dp"
+            android:id="@+id/tvCurrentFolder" />
+    </HorizontalScrollView>
+
+    <ListView
+        android:id="@+id/lvFiles"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/hsvFolderScroll"
+        android:layout_above="@+id/llButtons" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/llButtons"
+        android:weightSum="1">
+        <Button
+            android:text="Send (0)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bSend"
+            android:layout_weight="0.5" />
+        <Button
+            android:text="Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bCancel"
+            android:layout_weight="0.5" />
+    </LinearLayout>
+</RelativeLayout>
