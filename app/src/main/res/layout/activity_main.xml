@@ -59,11 +59,23 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="People: "
+            android:layout_marginTop="100dp"
+            android:text="BuzzShare"
             android:textSize="36sp"
             android:padding="20sp"
+            android:layout_gravity="center"
             android:textColor="@android:color/black"
             />
         </LinearLayout>
+        <Button
+            android:id="@+id/openChatApp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#F8AE40"
+            android:layout_marginTop="200dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Send Files To Your Remote Friends"
+            />
     </LinearLayout>
 </ScrollView>

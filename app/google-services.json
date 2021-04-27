@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "749030813074",
+    "project_id": "buzzshare-e050d",
+    "storage_bucket": "buzzshare-e050d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749030813074:android:a8bb6c02e4206941a7654b",
+        "android_client_info": {
+          "package_name": "com.pollinators.buzzshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749030813074-tk32dukhi4875ffg7q8qcvpuhd8du706.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pollinators.buzzshare",
+            "certificate_hash": "07e2e70dbe7c14163f4807a50d8323593b6f6460"
+          }
+        },
+        {
+          "client_id": "749030813074-3up25fneqiljkjb1n7nk7oi3vk25o5k2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJHev-Qfv0aLSIHq8u0mq3QlPSR8sr3Dk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749030813074-3up25fneqiljkjb1n7nk7oi3vk25o5k2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

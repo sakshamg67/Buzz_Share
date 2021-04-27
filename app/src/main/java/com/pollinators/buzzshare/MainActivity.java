@@ -13,6 +13,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
+import com.pollinators.buzzshare.Home.ChatModuleMain;
+
 public class MainActivity extends Activity {
     ImageButton bSend, bReceive;
     Button bOpen;
@@ -37,6 +39,14 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ReceiverActivity.class);
+                startActivity(intent);
+            }
+        });
+        bOpen=findViewById(R.id.openChatApp);
+        bOpen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this, ChatModuleMain.class);
                 startActivity(intent);
             }
         });
